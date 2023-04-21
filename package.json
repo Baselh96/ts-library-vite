@@ -1,15 +1,15 @@
 {
-  "name": "vite-project",
+  "name": "ts-library-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./dist/ts-library-vite.umd.cjs",
+  "module": "./dist/ts-library-vite.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/ts-library-vite.js",
+      "require": "./dist/ts-library-vite.umd.cjs"
     }
   },
   "scripts": {
