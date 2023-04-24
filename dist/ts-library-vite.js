@@ -1,5 +1,5 @@
-const u = (s, r) => s - r, n = (s, r) => s / r;
-class c {
+const o = (s, r) => s - r, u = (s, r) => s / r;
+class e {
   constructor() {
   }
   sum(r, t) {
@@ -15,16 +15,24 @@ class c {
     return Math.max(r, t);
   }
 }
-class o {
+class n {
   constructor() {
   }
   multi(r, t) {
     return r.map((a) => a * t);
   }
 }
+class l {
+  constructor() {
+  }
+  sayHello() {
+    return "Hello everyone!";
+  }
+}
 export {
-  o as ArrayClass,
-  c as MathClass,
-  n as divite,
-  u as subtract
+  n as ArrayClass,
+  l as Hello,
+  e as MathClass,
+  u as divite,
+  o as subtract
 };
